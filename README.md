@@ -1,4 +1,4 @@
- local UIS = game:GetService("UserInputService")
+local UIS = game:GetService("UserInputService")
 local VIM = game:GetService("VirtualInputManager")
 
 local snowButton = Enum.KeyCode.ButtonY
@@ -46,12 +46,12 @@ UIS.InputBegan:Connect(function(input, gameProcessed)
         pressKey(Enum.KeyCode.Three)
         tapCenter()
 
-        task.wait(0.09)
+        task.wait(0.05)
 
         pressKey(Enum.KeyCode.Four)
         tapCenter()
 
-        task.wait(0.25)
+        task.wait(0.05)
 
         pressKey(Enum.KeyCode.Two)
         tapCenter()
@@ -169,4 +169,3 @@ UIS.InputBegan:Connect(function(input, gameProcessed)
         end)
     end
 end)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/YARDEDDx/loader/aa37733185bf4402dd2373ddb566bb24258c164c/Exotica_Hotbar_Guard%20(10).lua'))()
